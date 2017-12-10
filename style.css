@@ -1,0 +1,50 @@
+body{
+    font-family: "Microsoft Tai Le";
+    font-size: 25px;
+    font-weight: bold;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+#cal{
+    width: 640px;
+    height: 600px;
+    border: solid 1px dodgerblue;
+    margin: 0 auto;
+    padding: 0;
+
+}
+.key li{
+   list-style: none;
+    float: left;
+    width: 120px;
+    margin: 15px;
+    border: solid black 1px;
+    text-align: center;
+    padding: 3px;
+    height: 35px;
+    background-color: gainsboro;
+    cursor: pointer;
+}
+#result{
+    text-align: right;
+    padding: 2px;
+    border: solid black 1px;
+    font-size: 25px;
+    font-weight: bold;
+    width: 40%;
+    margin: 20px;
+    overflow: auto;
+
+}
+.key li:hover{
+    background-color: darkgrey;
+}
+#history{
+    border: solid burlywood 2px;
+    height: 50px;
+    text-align: right;
+    background-color: white;
+    font-size: 20px;
+}

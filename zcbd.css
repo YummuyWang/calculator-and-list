@@ -1,0 +1,13 @@
+#title{
+    text-align: center;
+}
+*{
+    font-family: "Adobe 仿宋 Std R";
+
+}
+.list{
+    width: 270px;
+    margin: 0 auto;
+    border: solid purple 2px;
+    background-color: hotpink;
+}
